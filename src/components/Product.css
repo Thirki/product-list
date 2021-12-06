@@ -1,0 +1,160 @@
+.product {
+  width: 304px;
+  /* height: 568px; */
+  border-radius: 8px;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  margin: 20px;
+  transition: all 0.2s;
+}
+
+.product:hover {
+  box-shadow: 0px 8px 24px 0px #00000014;
+  transition: all 0.2s;
+}
+
+.image-area {
+  width: 240px;
+  height: 240px;
+  margin: 32px 32px 0px 32px;
+  margin-bottom: 32px;
+  background-color: yellow;
+  position: relative;
+}
+
+.image-area img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-area .hearth-container {
+  margin: 0;
+  border: 0;
+}
+
+.image-area .hearth-container {
+  width: 48px;
+  height: 48px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f2f3f6;
+  border-radius: 50%;
+  display: flex;
+}
+
+.image-area .hearth-container:hover .hearth-path {
+  stroke: #da4b4f;
+}
+
+.image-area .wishlist {
+  background-color: #da4b4f;
+}
+
+.image-area .wishlist:hover {
+  background-color: #c22539;
+}
+
+.image-area .wishlist .hearth-path {
+  stroke: #fff;
+  fill: #fff;
+}
+
+.image-area .wishlist:hover .hearth-path {
+  stroke: #fff;
+}
+
+.image-area .hearth {
+  width: 24px;
+  height: 21px;
+  margin: auto;
+}
+
+/* .hearth-path:hover {
+  stroke: purple;
+} */
+
+.product h3 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.title-area {
+  width: 240px;
+  height: 60px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.product .add {
+  border: 0;
+  margin: 0;
+  border-radius: 5px;
+  background-color: #40b25c;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 0;
+  line-height: 24px;
+  margin-bottom: 32px;
+  transition: all 0.2s;
+  width: 240px;
+}
+
+.product .add:hover {
+  background-color: #1c6c3e;
+  transition: all 0.2s;
+}
+
+.product .added-to-cart {
+  background-color: #a3f9b9;
+  color: #1c1c1c;
+  transition: all 0.2s;
+}
+
+button img {
+  width: 16px;
+  height: 11px;
+  margin-right: 16px;
+  transition: all 0.2s;
+}
+
+.price-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 240px;
+  margin-bottom: 32px;
+}
+
+.for-sale {
+  color: #b5b5b6;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: line-through;
+}
+
+.on-sale {
+  color: #da4b4f;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.installment-payment {
+  color: #848587;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.installment-payment span {
+  color: #1c1c1c;
+}

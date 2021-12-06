@@ -1,0 +1,62 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: #44206a;
+  margin: 0 auto;
+  width: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px 50px 50px 50px;
+  overflow: hidden;
+}
+
+form label {
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  height: 40px;
+  font-size: 1rem;
+  background: none;
+  border: 0;
+  color: #ffffff;
+}
+
+form input:focus {
+  background: none;
+}
+
+form button {
+  background-color: #dfdfe1;
+  color: #111111;
+  border: 0;
+  font-size: 1.4rem;
+
+  width: 240px;
+  height: 48px;
+  border-radius: 50px 0px 0px 50px;
+
+  transition: all 0.2s;
+}
+
+form button:hover {
+  background-color: #c8c8ca;
+  transition: all 0.2s;
+}
+
+form img {
+  padding: 0 8px;
+}
+
+.input-container {
+  background-color: #572785;
+  padding: 10px;
+}
