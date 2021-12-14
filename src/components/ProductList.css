@@ -72,6 +72,11 @@ form img {
   form {
     width: 100%;
   }
+
+  form input::placeholder {
+    font-size: 0.9rem;
+  }
+
   form button {
     width: 120px;
     height: 48px;
