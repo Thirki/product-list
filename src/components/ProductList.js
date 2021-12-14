@@ -30,6 +30,7 @@ function ProductList() {
       .then((response) => response)
       setProducts(teste.slice(0, 10).filter((element) => element.original_price));
       setLoading(false)
+      setInput('')
   }
 
   return (
@@ -37,8 +38,14 @@ function ProductList() {
       <div className="input-container">
         <form onSubmit={(event, input) => {handleChangeProducts(event, input)}}>
           <img src={lupa} alt="" />
-          <label htmlFor="input" value={input} onChange={(event) => setInput(event.target.value) }>
-            <input type="text" id="input" placeholder="Digite o nome do produto desejado" />
+          <label htmlFor="input">
+            <input
+              type="text"
+              id="input"
+              placeholder="Digite o nome do produto desejado"
+              value={input}
+              onChange={(event) => setInput(event.target.value) }
+            />
           </label>
           <button type="submit">
             Search
