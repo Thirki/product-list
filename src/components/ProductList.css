@@ -31,7 +31,7 @@ form input {
 }
 
 form input:-webkit-autofill {
-  box-shadow: 0 0 0 30px #44206a inset;
+  -webkit-box-shadow: 0 0 0 30px #44206a inset !important;
   -webkit-text-fill-color: #ffffff !important;
 }
 
